@@ -1,14 +1,5 @@
 # molgenis-template-py
-
-Add a short description here!
-
-
-## Description
-
-A longer description of your project goes here...
-
-
-<!-- pyscaffold-notes -->
+A template with boilerplate and pre-made configuration for Python projects
 
 ## Note
 
