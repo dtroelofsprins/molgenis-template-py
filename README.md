@@ -2,7 +2,7 @@
 A template with boilerplate and pre-made configuration for Python projects
 
 ## How to use
-1. Click on the "Use this template" button and name your repo
+1. Click on the "Use this template" and name your repo. Choose _molgenis_ as owner.
 2. Fork it and clone it locally
 3. In your favorite IDE:
    * Search for all occurrences of `<#CHANGE-ME#>` and replace them individually with something sensible
@@ -21,7 +21,7 @@ best practices it configures, read [the documentation](https://pyscaffold.org/).
 some key points:
 - All the configuration for your project should go in `setup.cfg`
 - Development is done in a virtual environment. We use [pipenv](https://pipenv.pypa.io/en/latest/).
-- Developer dependencies should be added to the `Pipfile` (with `pipenv install --dev <package>`),
+- Development dependencies should be added to the `Pipfile` (with `pipenv install --dev <package>`),
   normal dependencies should go in `setup.cfg`. `pipenv` will automatically pick these
   up when developing.
 - You can use `tox` to build your project and run tests. Just run `tox` to run all tests.
