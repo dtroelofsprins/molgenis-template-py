@@ -2,7 +2,7 @@
 A template with boilerplate and pre-made configuration for Python projects
 
 ## How to use
-1. Click on the "Use this template button" and name your repo
+1. Click on the "Use this template" button and name your repo
 2. Fork it and clone it locally
 3. In your favorite IDE:
    * Search for all occurrences of `<#CHANGE-ME#>` and replace them individually with something sensible
