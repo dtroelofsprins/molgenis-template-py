@@ -14,6 +14,7 @@ A template with boilerplate and pre-made configuration for Python projects
 entry points of your library, application or command-line interface. You can use it as
 a starting point, or you can safely remove it. It's up to you!
 5. Remove/edit this file :)
+6. Execute the commands described in [For developers](#for-developers) to get yourself up and running.
 
 ## PyScaffold
 This project has been set up with PyScaffold 4.1.1. To know more about the standards and
