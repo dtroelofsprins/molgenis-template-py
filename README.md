@@ -10,11 +10,13 @@ A template with boilerplate and pre-made configuration for Python projects
    * Rename (refactor) the package `src/molgenis/PROJECT` to your project's name (e.g. `src/molgenis/foo`)
    * Search for `<#PACKAGE-NAME#>` and replace it with the name you gave the package in the previous step
    * Rename `RENAME-Jenkinsfile` to `Jenkinsfile` to activate the build pipeline
-4. The `example.py` file under the `src` folder contains an example of how to set up the
+4. Commit.
+4. Execute the commands described in [For developers](#for-developers) to get yourself up and running.
+5. Commit the newly created `Pipfile.lock`.
+6. The `example.py` file under the `src` folder contains an example of how to set up the
 entry points of your library, application or command-line interface. You can use it as
 a starting point, or you can safely remove it. It's up to you!
-5. Remove/edit this file :)
-6. Execute the commands described in [For developers](#for-developers) to get yourself up and running.
+7. Remove/edit this file :)
 
 ## PyScaffold
 This project has been set up with PyScaffold 4.1.1. To know more about the standards and
