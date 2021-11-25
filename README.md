@@ -3,17 +3,22 @@ A template with boilerplate and pre-made configuration for Python projects
 
 ## How to use
 1. Click on the "Use this template" and name your repo. Choose _molgenis_ as owner.
-2. Fork it and clone it locally
-3. In your favorite IDE:
+2. Go to the repository's settings. Under _Manage access_, add the following teams:
+   * `molgenis/bot` (Admin)
+   * `molgenis/development` (Maintain)
+   * `molgenis/data-management` (Maintain)
+   > Note: You need (to be) an admin to set these permissions.
+3. Fork the repository and clone the fork locally
+5. In your favorite IDE:
    * Search for all occurrences of `<#CHANGE-ME#>` and replace them individually with something sensible
    * Search for all occurrences of `<#REPO-NAME#>` and replace them all with the name of your new repo (e.g. `molgenis-py-foo`)
    * Rename (refactor) the package `src/molgenis/PROJECT` to your project's name (e.g. `src/molgenis/foo`)
    * Search for `<#PACKAGE-NAME#>` and replace it with the name you gave the package in the previous step
    * Rename `RENAME-Jenkinsfile` to `Jenkinsfile` to activate the build pipeline
-4. Commit.
-4. Execute the commands described in [For developers](#for-developers) to get yourself up and running.
-5. Commit the newly created `Pipfile.lock`.
-6. The `example.py` file under the `src` folder contains an example of how to set up the
+6. Commit.
+7. Execute the commands described in [For developers](#for-developers) to get yourself up and running.
+8. Commit the newly created `Pipfile.lock`.
+9. The `example.py` file under the `src` folder contains an example of how to set up the
 entry points of your library, application or command-line interface. You can use it as
 a starting point, or you can safely remove it. It's up to you!
 7. Remove/edit this file :)
