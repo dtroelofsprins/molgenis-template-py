@@ -7,6 +7,7 @@ A template with boilerplate and pre-made configuration for Python projects
    * `molgenis/bot` (Admin)
    * `molgenis/development` (Maintain)
    * `molgenis/data-management` (Maintain)
+   > Note: You need (to be) an admin to set these permissions.
 3. Fork the repository and clone the fork locally
 5. In your favorite IDE:
    * Search for all occurrences of `<#CHANGE-ME#>` and replace them individually with something sensible
