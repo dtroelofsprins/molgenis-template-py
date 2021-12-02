@@ -12,6 +12,7 @@ Using this template will give you out of the box:
 - Pre-configured Sonar integration
 - Pre-configured Jenkins builds and GitHub integration
 - A release strategy that published to TestPyPi first and to PyPi when you're ready
+- Detailed instructions for your developers on how to start
 - ... more!
 
 ## How to use
