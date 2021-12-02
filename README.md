@@ -1,6 +1,19 @@
 # molgenis-template-py
 A template with boilerplate and pre-made configuration for Python projects
 
+## What's in the box
+Using this template will give you out of the box:
+- A correctly configured Python package under the `molgenis` namespace
+- Automatic code formatting & linting
+- A multitude of other checks that are run at commit-time
+- A `pipenv` virtual environment with essential dev dependencies pre-installed
+- A building and versioning strategy that uses `tox`
+- A testing framework with automatically generated coverage and junit reports
+- Pre-configured Sonar integration
+- Pre-configured Jenkins builds and GitHub integration
+- A release strategy that published to TestPyPi first and to PyPi when you're ready
+- ... more!
+
 ## How to use
 1. Click on the "Use this template" and name your repo. Choose _molgenis_ as owner.
 2. Go to the repository's settings. Under _Manage access_, add the following teams:
