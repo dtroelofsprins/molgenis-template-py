@@ -85,7 +85,7 @@ pre-commit install
 
 Create an environment and install the package including all (dev) dependencies:
 ```
-pipenv install
+pipenv install --dev
 ```
 
 Activate the virtual environment:
