@@ -38,7 +38,7 @@ a starting point, or you can safely remove it. It's up to you!
 7. Remove/edit this file :)
 
 ## PyScaffold
-This project has been set up with PyScaffold 4.1.1. To know more about the standards and
+This project has been set up with PyScaffold 4.4 To know more about the standards and
 best practices it configures, read [the documentation](https://pyscaffold.org/). Here are
 some key points:
 - All the configuration for your project should go in `setup.cfg`
@@ -55,7 +55,7 @@ will probably see their pull request build fail, so make sure to make that clear
 
 ## Other info
 Here's some other useful information:
-- By default, the project is configured to use Python 3.6. This can be changed in `setup.cfg`
+- By default, the project is configured to use Python 3.10. This can be changed in `setup.cfg`
 - A build pipeline for Jenkins is added. If you want to add your own build pipeline,
 feel free to put up a pull request!
 - The Jenkinsfile contains a release flow that uses `tox` to build and release to PyPi.
