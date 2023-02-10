@@ -38,7 +38,7 @@ a starting point, or you can safely remove it. It's up to you!
 7. Remove/edit this file :)
 
 ## PyScaffold
-This project has been set up with PyScaffold 4.4 To know more about the standards and
+This project has been set up with PyScaffold 4.1.1. To know more about the standards and
 best practices it configures, read [the documentation](https://pyscaffold.org/). Here are
 some key points:
 - All the configuration for your project should go in `setup.cfg`
