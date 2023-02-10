@@ -55,7 +55,7 @@ will probably see their pull request build fail, so make sure to make that clear
 
 ## Other info
 Here's some other useful information:
-- By default, the project is configured to use Python 3.6. This can be changed in `setup.cfg`
+- By default, the project is configured to use Python 3.10. This can be changed in `setup.cfg`
 - A build pipeline for Jenkins is added. If you want to add your own build pipeline,
 feel free to put up a pull request!
 - The Jenkinsfile contains a release flow that uses `tox` to build and release to PyPi.
